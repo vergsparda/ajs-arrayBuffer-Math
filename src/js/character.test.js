@@ -2,9 +2,9 @@ import Character from './character';
 
 test('return usual decrease attack', () => {
   const usual = new Character(100, false);
-  expect(notStoned.getAttack(1)).toBe(100);
-  expect(notStoned.getAttack(2)).toBe(90);
-  expect(notStoned.getAttack(5)).toBe(60);
+  expect(usual.getAttack(1)).toBe(100);
+  expect(usual.getAttack(2)).toBe(90);
+  expect(usual.getAttack(5)).toBe(60);
 });
 
 test('return stoned decrease attack', () => {
